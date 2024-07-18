@@ -1,0 +1,114 @@
+.profileImage{
+  border-radius: 50%;
+  height: 128px;
+  width:128px;
+}
+
+.pageTitle{
+  font-size: 48px;
+  color:#fff;
+  margin:0px;
+
+}
+
+.followButton{
+  background-color: #fff;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding:6px 16px;
+  border-radius: 32px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.followButton > svg{
+  height: 12px;
+  width: 12px;
+}
+
+.titleGroup{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap:16px;
+}
+
+.imageGroup{
+  display: inline-flex;
+  flex-direction: column;
+  gap:8px;
+}
+
+.description{
+  max-width: 350px;
+  color:#CCCCCC;
+  margin:0px;
+}
+
+.topContainer{
+  display: inline-flex;
+  flex-direction: column;
+  gap:0px;
+  margin-left:5vw;
+}
+
+.socialButtons{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap:8px;
+  background-color: #1A1C1B;
+  color:#fff;
+  border:none;
+  padding:8px 16px;
+  border-radius: 32px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.socialButtons > svg{
+  width: 16px;
+  height: 16px;
+  fill: #fff;
+}
+
+.buttonContainer{
+  display: inline-flex;
+  flex-direction: row;
+  gap:8px;
+  margin-top:16px;
+
+}
+
+.navBar{
+  color:#fff;
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  padding-left:5vw;
+  box-sizing: border-box;
+  margin: 24px 0px;
+
+}
+
+.navTitle{
+  font-size: 16px;
+  font-weight: bold;
+  color:#fff;
+  text-decoration: none;
+}
+
+.navTitle > span{
+  color:#ccc;
+  font-weight: normal;
+  text-decoration: none;
+}
