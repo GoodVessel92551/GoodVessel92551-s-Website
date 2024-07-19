@@ -9,7 +9,7 @@ interface props {
 export default function ProjectImage({ image, alt }: props) {
   return (
     <div>
-      <Image alt={alt} src={image} width={350} height={225}></Image>
+      <Image className='projectImage' alt={alt} src={image} width={350} height={225}></Image>
     </div>
   )
 }

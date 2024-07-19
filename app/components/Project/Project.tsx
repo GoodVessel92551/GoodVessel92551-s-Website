@@ -7,16 +7,17 @@ interface Props {
   alt: string;
   image: string;
   description: string;
+  url: string;
 }
 
-export default function Project({ title, alt, image, description }: Props) {
+export default function Project({ title, url, alt, image, description }: Props) {
   return (
-    <div>
+    <div className="project">
       <ProjectImage alt={alt} image={image}></ProjectImage>
-      <div>
-        <div>
+      <div className="projectInfo">
+        <div className="titleBarProject">
           <h2>{title}</h2>
-          <ProjectOpen></ProjectOpen>
+          <ProjectOpen url={url}></ProjectOpen>
         </div>
         <p>{description}</p>
       </div>

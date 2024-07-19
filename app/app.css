@@ -112,3 +112,76 @@
   font-weight: normal;
   text-decoration: none;
 }
+
+.project{
+  display: flex;
+  flex-direction: row;
+  gap:16px;
+  width: 750px;
+}
+
+.projectInfo{
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+  width: 100%;
+}
+
+.projectInfo  h2{
+  font-size: 20px;
+  margin:0px;
+  color:#fff;
+}
+
+.projectInfo > p{
+  font-size: 16px;
+  margin: 0px;
+  color:#ccc;
+}
+
+.projectImage{
+  background-color: #fff;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.projectOpen{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap:8px;
+  background-color: #1A1C1B;
+  color:#fff;
+  border:none;
+  padding:8px 16px;
+  border-radius: 32px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left:auto;
+}
+
+.projectOpen > svg{
+  width: 16px;
+  height: 16px;
+  fill: #fff;
+  transition: .2s;
+}
+
+.projectOpen:hover svg{
+  transform: translate(2px,-2px);
+}
+
+.titleBarProject{
+  display: flex;
+  align-items: center;
+}
+
+.projects{
+  display: flex;
+  gap:16px;
+  flex-direction: column;
+  position: absolute;
+  top:96px;
+  left:5%;
+}
