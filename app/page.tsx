@@ -4,6 +4,7 @@ import Description from './components/Description'
 import SocialButtons  from './components/SocialButtons'
 import Page_Nav from './components/PageNav';
 import "./app.css";
+import exp from 'constants';
 
 function Home() {
 
@@ -23,4 +24,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
