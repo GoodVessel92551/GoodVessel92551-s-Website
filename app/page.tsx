@@ -5,11 +5,13 @@ import SocialButtons  from './components/SocialButtons'
 import Page_Nav from './components/PageNav';
 import "./app.css";
 import exp from 'constants';
+import { Analytics } from "@vercel/analytics/react"
 
 function Home() {
 
   return (
     <>
+    <Analytics></Analytics>
     <Page_Nav title='Home'></Page_Nav>
     <div className='topContainer'>
     <ImageGroup></ImageGroup>

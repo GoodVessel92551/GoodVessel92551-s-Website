@@ -2,10 +2,12 @@ import React from 'react'
 import Page_Nav from '../components/PageNav'
 import "../app.css";
 import Project from '../components/Project/Project';
+import { Analytics } from "@vercel/analytics/react"
 
 const page = () => {
   return (
     <div>
+      <Analytics></Analytics>
       <Page_Nav title='Projects'></Page_Nav>
       <div className='projects'>
         <Project url="https://ai.booogle.app" title='Local Chat' alt='local chat' image='/project_images/LocalChat.webp' description='Local Chat is a AI chat interface that uses Gemini Nano running locally in chrome. The website use html/js/css utilizing window.ai to get the AI running fully locally.'></Project>
